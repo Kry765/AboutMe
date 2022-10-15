@@ -11,10 +11,11 @@
 	<header>
 		<div class="header-background flex-center-position">
 			<div class="shadow-header-background"></div>
-			<h1 class="welcome-text">Witaj, chcesz nieco więcej dowiedzieć się o mnie?</h1>
-			<button type="button">ZACZYNAMY</button>
+			<div class="welcome-text">
+				<h1>Witaj, chcesz nieco więcej dowiedzieć się o mnie?</h1>
+				<button type="button" class="welcome-button">Przejdź dalej</button>
+			</div>
 		</div>
-		<div class="test"></div>
 	</header>
 </template>
 <style scoped lang="scss">
