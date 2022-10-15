@@ -13,4 +13,20 @@ export default {
 }
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Red Hat Display', sans-serif;
+}
+</style>

@@ -1,11 +1,10 @@
 <template>
 	<nav>
-		<div class="top-navigation">
-			<a href="#home">Strona główna</a>
-			<a href="#aboutme">O nas</a>
-			<a href="#goals">Osiągnięcia</a>
-			<a href="#skills">Umiejętności</a>
-			<a href="#contactme">Kontakt</a>
+		<div class="top-nav flex-center-position burger-icon">
+			<div><a class="top-nav-element" href="#home">Strona główna</a></div>
+			<div><a class="top-nav-element" href="#aboutme">O nas</a></div>
+			<div><a class="top-nav-element" href="#goals">Osiągnięcia</a></div>
+			<div><a class="top-nav-element" href="#skills">Umiejętności</a></div>
 		</div>
 	</nav>
 </template>
@@ -13,4 +12,6 @@
 <script></script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+@import '../scss/style.scss';
+</style>
