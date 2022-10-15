@@ -22,11 +22,20 @@ a {
 }
 
 .top-nav-element {
-	// background-color: ;
 	margin: 0 2rem;
 }
+
+.burger-icon {
+	display: none;
+}
+
 @media (max-width: 768px) {
 	.top-nav {
 		display: none;
+	}
+
+	.burger-icon {
+		display: block;
+		height: 40px;
 	}
 }
