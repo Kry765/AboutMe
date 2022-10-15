@@ -1,18 +1,22 @@
 <template>
 	<nav>
-		<div class="top-nav flex-center-position">
-			<div><img src="../picture/menu.png" alt="menu" class="burger-icon" /></div>
+		<div class="top-nav flex-end-position">
 			<div><a class="top-nav-element" href="#home">Strona główna</a></div>
-			<div><a class="top-nav-element" href="#aboutme">O nas</a></div>
+			<div><a class="top-nav-element" href="#aboutme">O mnie</a></div>
 			<div><a class="top-nav-element" href="#goals">Osiągnięcia</a></div>
 			<div><a class="top-nav-element" href="#skills">Umiejętności</a></div>
+			<div><a class="top-nav-element" href="#contact">Kontakt</a></div>
 		</div>
 	</nav>
+	<header>
+		<div class="header-background flex-center-position">
+			<div class="shadow-header-background"></div>
+			<h1 class="welcome-text">Witaj, chcesz nieco więcej dowiedzieć się o mnie?</h1>
+			<button type="button">ZACZYNAMY</button>
+		</div>
+		<div class="test"></div>
+	</header>
 </template>
-
-<script></script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 @import '../scss/style.scss';
 </style>
