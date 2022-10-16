@@ -37,7 +37,7 @@ a {
 }
 
 .top-nav-element {
-	margin: 0 2rem;
+	margin: 0 2em;
 	transition: 0.5s;
 	z-index: 2;
 }
@@ -63,11 +63,11 @@ a {
 		position: absolute;
 		width: 100%;
 		height: 100vh;
-		background-color: $light-dark;
+		background-color: rgb(43, 28, 28);
 		opacity: 0.5;
 	}
 	.welcome-text {
-		font-size: 24px;
+		font-size: 1.5rem;
 		z-index: 4;
 		padding: 30px 0;
 		color: $white;
@@ -81,9 +81,8 @@ a {
 			color: #eeeeee;
 			padding: 20px;
 			text-transform: uppercase;
-			font-size: 24px;
+			font-size: 1rem;
 			font-weight: bold;
-			padding-top: 25px;
 			transition: 0.4s;
 		}
 
@@ -103,7 +102,16 @@ a {
 
 //MOBILE
 @media (max-width: 768px) {
-	.top-nav {
+	.header-background {
+		background-image: url(../picture/keyboard-ge7a5f3311_640.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		.welcome-text {
+			font-size: 1rem;
+		}
+	}
+
+	.top-nav-element {
 		display: none;
 	}
 }

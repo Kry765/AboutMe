@@ -28,5 +28,6 @@ html {
 
 body {
 	font-family: 'Red Hat Display', sans-serif;
+	font-size: 16px;
 }
 </style>
