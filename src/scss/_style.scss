@@ -50,6 +50,10 @@ a {
 	text-align: center;
 }
 
+.burger-top-menu {
+	display: none;
+}
+
 //HEADER
 
 .header-background {
@@ -102,6 +106,11 @@ a {
 
 //MOBILE
 @media (max-width: 768px) {
+	ion-icon {
+		font-size: 4rem;
+
+	}
+
 	.header-background {
 		background-image: url(../picture/keyboard-ge7a5f3311_640.jpg);
 		background-repeat: no-repeat;
@@ -113,5 +122,14 @@ a {
 
 	.top-nav-element {
 		display: none;
+	}
+
+	.burger-top-menu {
+		display: block;
+		padding: 1em 1.5em;
+		// width: 20%;
+		// height: 30vh;
+		color: $white;
+		// font-size: 3rem;
 	}
 }
