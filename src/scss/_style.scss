@@ -104,11 +104,29 @@ a {
 	width: 100%;
 }
 
+//SKILLS
+
+.skills {
+	height: 100vh;
+	width: 100%;
+	background: $light-dark;
+}
+
+.skills-title {
+	padding-top: 20px;
+}
+
+.skills-icon {
+	color: $white;
+	display: block;
+	margin: 20px;
+	font-size: 10rem;
+}
+
 //MOBILE
 @media (max-width: 768px) {
 	ion-icon {
 		font-size: 4rem;
-
 	}
 
 	.header-background {

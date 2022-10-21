@@ -23,27 +23,37 @@
 	</header>
 	<main>
 		<section>
-			<div class="skills">
-				<h1>Umiejętności</h1>
-				<div class="html">
-					<div class="html-card">
-						<ion-icon name="airplane-outline"></ion-icon>
+			<div class="flex-center-position skills-title">
+				<h1 id="skills">Umiejętności</h1>
+			</div>
+			<div class="skills flex-center-position">
+				<div class="flex-center-position">
+					<div class="html">
+						<div class="html-card skills-icon">
+							<ion-icon name="logo-html5"></ion-icon>
+						</div>
 					</div>
-				</div>
-				<div class="css">
-					<div class="css-card"></div>
-				</div>
-				<div class="javascript">
-					<div class="javascript card"></div>
-				</div>
-				<div class="github">
-					<div class="github-card"></div>
-				</div>
-				<div class="scss">
-					<div class="scss-card"></div>
-				</div>
-				<div class="vue">
-					<div class="vue-card"></div>
+					<div class="css">
+						<div class="css-card skills-icon">
+							<ion-icon name="logo-css3"></ion-icon>
+						</div>
+					</div>
+					<div class="javascript">
+						<div class="javascript-card skills-icon">
+							<ion-icon name="logo-javascript"></ion-icon>
+						</div>
+					</div>
+					<div class="github">
+						<div class="github-card skills-icon">
+							<ion-icon name="logo-github"></ion-icon>
+						</div>
+					</div>
+					<div class="scss skills-icon">
+						<div class="scss-card"><ion-icon name="logo-sass"></ion-icon></div>
+					</div>
+					<div class="vue-card skills-icon">
+						<ion-icon name="logo-vue"></ion-icon>
+					</div>
 				</div>
 			</div>
 		</section>
