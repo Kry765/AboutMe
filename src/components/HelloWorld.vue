@@ -80,6 +80,9 @@
 				</div>
 			</div>
 		</section>
+		<section class="goals">
+			
+		</section>
 	</main>
 </template>
 <style scoped lang="scss">

@@ -161,6 +161,15 @@ a {
 .scss-skill-card {
 	width: 70%;
 }
+
+//GOALS
+
+.goals {
+	width: 100%;
+	height: 100vh;
+	background-image: url('../picture/business-g43692ee71_1920.jpg');
+}
+
 //MOBILE
 @media (max-width: 768px) {
 	ion-icon {
@@ -183,9 +192,7 @@ a {
 	.burger-top-menu {
 		display: block;
 		padding: 1em 1.5em;
-		// width: 20%;
-		// height: 30vh;
+
 		color: $white;
-		// font-size: 3rem;
 	}
 }
