@@ -80,8 +80,13 @@
 				</div>
 			</div>
 		</section>
-		<section class="goals">
-			
+		<section>
+			<div class="shadow-goals">
+				<div class="goals"></div>
+			</div>
+		</section>
+		<section>
+			<div class="contact"></div>
 		</section>
 	</main>
 </template>

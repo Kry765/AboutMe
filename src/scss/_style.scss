@@ -165,9 +165,25 @@ a {
 //GOALS
 
 .goals {
+	position: fixed;
 	width: 100%;
 	height: 100vh;
 	background-image: url('../picture/business-g43692ee71_1920.jpg');
+}
+
+.shadow-goals {
+	// position: fixed;
+	background-image: url('../picture/business-g43692ee71_1920.jpg');
+	background-color: $red;
+	width: 100%;
+	height: 100vh;
+	opacity: 0.6;
+}
+
+.contact {
+	width: 100%;
+	height: 100vh;
+	background-color: blue;
 }
 
 //MOBILE
