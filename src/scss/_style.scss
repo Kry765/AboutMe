@@ -3,6 +3,10 @@ $white: #eeeeee;
 $red: #d72323;
 $light-dark: #3a4750;
 
+h1 {
+	color: $white;
+}
+
 //MENU
 .flex-end-position {
 	display: flex;
@@ -74,7 +78,6 @@ a {
 		font-size: 1.5rem;
 		z-index: 4;
 		padding: 30px 0;
-		color: $white;
 	}
 	div {
 		.welcome-button {
@@ -123,6 +126,41 @@ a {
 	font-size: 10rem;
 }
 
+.skill-level {
+	border: 2px solid white;
+	height: 10px;
+	max-width: 100%;
+	// background-color: white;
+	border-radius: 15px;
+}
+.html-skill-level,
+.scss-skill-card,
+.css-skill-level,
+.js-skill-level,
+.vue-skill-level,
+.github-skill-level {
+	background-color: white;
+	height: 100%;
+}
+
+.github-skill-level {
+	width: 50%;
+}
+.html-skill-level {
+	width: 90%;
+}
+.css-skill-level {
+	width: 80%;
+}
+.js-skill-level {
+	width: 65%;
+}
+.vue-skill-level {
+	width: 40%;
+}
+.scss-skill-card {
+	width: 70%;
+}
 //MOBILE
 @media (max-width: 768px) {
 	ion-icon {

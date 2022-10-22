@@ -23,36 +23,59 @@
 	</header>
 	<main>
 		<section>
-			<div class="flex-center-position skills-title">
-				<h1 id="skills">Umiejętności</h1>
-			</div>
-			<div class="skills flex-center-position">
+			<div class="skills">
+				<div class="flex-center-position skills-title">
+					<h1 id="skills">Umiejętności</h1>
+				</div>
 				<div class="flex-center-position">
 					<div class="html">
 						<div class="html-card skills-icon">
 							<ion-icon name="logo-html5"></ion-icon>
+							<div class="skill-level">
+								<div class="html-skill-level"></div>
+							</div>
 						</div>
 					</div>
 					<div class="css">
-						<div class="css-card skills-icon">
+						<div class="skills-icon">
 							<ion-icon name="logo-css3"></ion-icon>
+							<div class="skill-level">
+								<div class="css-skill-level"></div>
+							</div>
 						</div>
 					</div>
 					<div class="javascript">
-						<div class="javascript-card skills-icon">
+						<div class="skills-icon">
 							<ion-icon name="logo-javascript"></ion-icon>
+							<div class="skill-level">
+								<div class="js-skill-level"></div>
+							</div>
 						</div>
 					</div>
+				</div>
+				<div class="flex-center-position">
 					<div class="github">
-						<div class="github-card skills-icon">
+						<div class="skills-icon">
 							<ion-icon name="logo-github"></ion-icon>
+							<div class="skill-level">
+								<div class="github-skill-level"></div>
+							</div>
 						</div>
 					</div>
-					<div class="scss skills-icon">
-						<div class="scss-card"><ion-icon name="logo-sass"></ion-icon></div>
+					<div class="skills-icon">
+						<div class="scss-card">
+							<ion-icon name="logo-sass"></ion-icon>
+							<div class="skill-level">
+								<div class="scss-skill-card"></div>
+							</div>
+						</div>
 					</div>
-					<div class="vue-card skills-icon">
+
+					<div class="skills-icon">
 						<ion-icon name="logo-vue"></ion-icon>
+						<div class="skill-level">
+							<div class="vue-skill-level"></div>
+						</div>
 					</div>
 				</div>
 			</div>
