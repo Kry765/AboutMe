@@ -81,8 +81,10 @@
 			</div>
 		</section>
 		<section>
-			<div class="shadow-goals">
-				<div class="goals"></div>
+			<div class="goals">
+				<div class="shadow-goals"></div>
+				<h1>Osiągnięcia</h1>
+				
 			</div>
 		</section>
 		<section>
