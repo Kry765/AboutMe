@@ -93,7 +93,7 @@
 					<textarea placeholder="Twoja wiadomość"></textarea>
 					<button>Wyślij wiadomość</button>
 				</div>
-				<div class="contact-info">
+				<div class="flex-end-position">
 					<div>
 						<ion-icon name="logo-linkedin"></ion-icon>
 						<p>LinkedIn</p>
