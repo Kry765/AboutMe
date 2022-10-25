@@ -50,7 +50,6 @@ a {
 	color: $red;
 }
 
-
 .burger-top-menu {
 	display: none;
 }
@@ -180,6 +179,13 @@ a {
 	width: 100%;
 	height: 100vh;
 	background-color: $light-dark;
+}
+
+.section-contact-right {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 }
 
 //FOOTER

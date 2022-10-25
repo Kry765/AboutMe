@@ -93,21 +93,21 @@
 					<textarea placeholder="Twoja wiadomość"></textarea>
 					<button>Wyślij wiadomość</button>
 				</div>
-				<div class="flex-end-position">
-					<div>
+				<div>
+					<div class="section-contact-right">
 						<ion-icon name="logo-linkedin"></ion-icon>
 						<p>LinkedIn</p>
 					</div>
-					<div>
+					<div class="section-contact-right">
 						<ion-icon name="logo-github"></ion-icon>
 						<p>github</p>
 					</div>
-					<div>
+					<div class="section-contact-right">
 						<ion-icon name="logo-facebook"></ion-icon>
 						<p>facebook</p>
 					</div>
-					<div>
-						<ion-icon name="logo-facebook"></ion-icon>
+					<div class="section-contact-right">
+						<ion-icon name="mail-outline"></ion-icon>
 						<p>E-mail</p>
 					</div>
 				</div>
