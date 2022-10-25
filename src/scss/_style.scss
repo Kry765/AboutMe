@@ -126,7 +126,6 @@ a {
 	border: 2px solid white;
 	height: 10px;
 	max-width: 100%;
-	// background-color: white;
 	border-radius: 15px;
 }
 .html-skill-level,
@@ -174,6 +173,8 @@ a {
 	z-index: -1;
 }
 
+//CONTACT
+
 .contact {
 	z-index: 1;
 	width: 100%;
@@ -184,8 +185,12 @@ a {
 .section-contact-right {
 	display: flex;
 	align-items: center;
-	justify-content: center;
-	text-align: center;
+}
+
+.section-contact-left{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
 }
 
 //FOOTER
@@ -218,7 +223,6 @@ a {
 	.burger-top-menu {
 		display: block;
 		padding: 1em 1.5em;
-
 		color: $white;
 	}
 }

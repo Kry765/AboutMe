@@ -88,7 +88,7 @@
 		</section>
 		<section>
 			<div class="contact">
-				<div class="email">
+				<div class="section-contact-left">
 					<p>Chcesz nawiązać współprace? Wyślij wiadomość</p>
 					<textarea placeholder="Twoja wiadomość"></textarea>
 					<button>Wyślij wiadomość</button>
