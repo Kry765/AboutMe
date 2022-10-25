@@ -84,13 +84,41 @@
 			<div class="goals">
 				<div class="shadow-goals"></div>
 				<h1>Osiągnięcia</h1>
-				
 			</div>
 		</section>
 		<section>
-			<div class="contact"></div>
+			<div class="contact">
+				<div class="email">
+					<p>Chcesz nawiązać współprace? Wyślij wiadomość</p>
+					<textarea placeholder="Twoja wiadomość"></textarea>
+					<button>Wyślij wiadomość</button>
+				</div>
+				<div class="contact-info">
+					<div>
+						<ion-icon name="logo-linkedin"></ion-icon>
+						<p>LinkedIn</p>
+					</div>
+					<div>
+						<ion-icon name="logo-github"></ion-icon>
+						<p>github</p>
+					</div>
+					<div>
+						<ion-icon name="logo-facebook"></ion-icon>
+						<p>facebook</p>
+					</div>
+					<div>
+						<ion-icon name="logo-facebook"></ion-icon>
+						<p>E-mail</p>
+					</div>
+				</div>
+			</div>
 		</section>
 	</main>
+	<footer>
+		<div class="footer">
+			<p>2022&copy; Kry765</p>
+		</div>
+	</footer>
 </template>
 <style scoped lang="scss">
 @import '../scss/style.scss';
