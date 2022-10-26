@@ -10,6 +10,11 @@ h1 {
 	color: $white;
 }
 
+p {
+	color: $white;
+	font-size: 0.8rem;
+}
+
 //MENU
 .flex-end-position {
 	display: flex;
@@ -182,8 +187,7 @@ GOALS .goals {
 	min-height: 100vh;
 	max-height: 100%;
 	background-color: $light-dark;
-	color: $white;
-	font-size: 0.8rem;
+	// font-size: 0.8rem;
 	.section-contact-right {
 		display: flex;
 		align-items: center;
@@ -228,14 +232,12 @@ GOALS .goals {
 }
 
 .bottom-menu {
-	font-size: 0.8rem;
 	text-decoration: underline;
 }
 
 //FOOTER
 .footer {
 	background-color: $light-dark;
-	color: $white;
 }
 
 .section-footer {
@@ -289,8 +291,9 @@ GOALS .goals {
 		justify-content: center;
 	}
 
-	.section-contact-right {
-		font-size: 1rem;
+	//FOOTER
+	.footer {
+		height: 100%;
 	}
 
 	.section-footer {
