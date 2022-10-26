@@ -87,28 +87,28 @@
 			</div>
 		</section>
 		<section>
-			<div class="contact">
+			<div class="contact flex-center-position">
 				<div class="section-contact-left">
 					<p>Chcesz nawiązać współprace? Wyślij wiadomość</p>
-					<textarea placeholder="Twoja wiadomość"></textarea>
-					<button>Wyślij wiadomość</button>
+					<textarea placeholder="Twoja wiadomość" class="contact-textarea"></textarea>
+					<button class="contact-btn">Wyślij wiadomość</button>
 				</div>
 				<div>
 					<div class="section-contact-right">
 						<ion-icon name="logo-linkedin"></ion-icon>
-						<p>LinkedIn</p>
+						<p class="contact-space-icon">Krzysztof Klęka</p>
 					</div>
 					<div class="section-contact-right">
 						<ion-icon name="logo-github"></ion-icon>
-						<p>github</p>
+						<p class="contact-space-icon">Kry765</p>
 					</div>
 					<div class="section-contact-right">
-						<ion-icon name="logo-facebook"></ion-icon>
-						<p>facebook</p>
+						<ion-icon name="logo-discord"></ion-icon>
+						<p class="contact-space-icon">Kry765#5652</p>
 					</div>
 					<div class="section-contact-right">
 						<ion-icon name="mail-outline"></ion-icon>
-						<p>E-mail</p>
+						<p class="contact-space-icon">krzysztof.kleka@poczta.onet.pl</p>
 					</div>
 				</div>
 			</div>
@@ -116,7 +116,7 @@
 	</main>
 	<footer>
 		<div class="footer">
-			<p>2022&copy; Kry765</p>
+			<p>2022 &copy; Kry765</p>
 		</div>
 	</footer>
 </template>
