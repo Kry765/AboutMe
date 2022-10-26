@@ -89,36 +89,43 @@
 		<section>
 			<div class="contact">
 				<h1>kontakt</h1>
-				<div class="flex-center-position">
-					<div class="section-contact-left">
-						<p>Chcesz nawiązać współprace? Wyślij wiadomość</p>
-						<textarea placeholder="Twoja wiadomość" class="contact-textarea"></textarea>
-						<button class="contact-btn">Wyślij wiadomość</button>
-					</div>
-					<div>
-						<div class="section-contact-right">
-							<ion-icon name="mail-outline"></ion-icon>
-							<p class="contact-space-icon">krzysztof.kleka@poczta.onet.pl</p>
-						</div>
-						<div class="section-contact-right">
-							<ion-icon name="logo-linkedin"></ion-icon>
-							<p class="contact-space-icon">Krzysztof Klęka</p>
-						</div>
-						<div class="section-contact-right">
-							<ion-icon name="logo-github"></ion-icon>
-							<p class="contact-space-icon">Kry765</p>
-						</div>
-						<div class="section-contact-right">
-							<ion-icon name="logo-discord"></ion-icon>
-							<p class="contact-space-icon">Kry765#5652</p>
-						</div>
-					</div>
+				<div class="section-contact-left">
+					<p>Chcesz nawiązać współprace? Wyślij wiadomość</p>
+					<textarea placeholder="Twoja wiadomość" class="contact-textarea"></textarea>
+					<button class="contact-btn">Wyślij wiadomość</button>
 				</div>
 			</div>
 		</section>
 	</main>
-	<footer>
-		<div class="footer">
+	<footer class="footer">
+		<div class="section-footer">
+			<div>
+				<div class="footer-left-position">
+					<ion-icon name="mail-outline"></ion-icon>
+					<p class="contact-space-icon">krzysztof.kleka@poczta.onet.pl</p>
+				</div>
+				<div class="footer-left-position">
+					<ion-icon name="logo-linkedin"></ion-icon>
+					<p class="contact-space-icon">Krzysztof Klęka</p>
+				</div>
+				<div class="footer-left-position">
+					<ion-icon name="logo-github"></ion-icon>
+					<p class="contact-space-icon">Kry765</p>
+				</div>
+				<div class="footer-left-position">
+					<ion-icon name="logo-discord"></ion-icon>
+					<p class="contact-space-icon">Kry765#5652</p>
+				</div>
+			</div>
+			<div>
+				<div><a class="bottom-menu" href="#home">Strona główna</a></div>
+				<div><a class="bottom-menu" href="#aboutme">O mnie</a></div>
+				<div><a class="bottom-menu" href="#goals">Osiągnięcia</a></div>
+				<div><a class="bottom-menu" href="#skills">Umiejętności</a></div>
+				<div><a class="bottom-menu" href="#contact">Kontakt</a></div>
+			</div>
+		</div>
+		<div>
 			<p>2022 &copy; Kry765</p>
 		</div>
 	</footer>
