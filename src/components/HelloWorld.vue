@@ -87,28 +87,31 @@
 			</div>
 		</section>
 		<section>
-			<div class="contact flex-center-position">
-				<div class="section-contact-left">
-					<p>Chcesz nawiązać współprace? Wyślij wiadomość</p>
-					<textarea placeholder="Twoja wiadomość" class="contact-textarea"></textarea>
-					<button class="contact-btn">Wyślij wiadomość</button>
-				</div>
-				<div>
-					<div class="section-contact-right">
-						<ion-icon name="logo-linkedin"></ion-icon>
-						<p class="contact-space-icon">Krzysztof Klęka</p>
+			<div class="contact">
+				<h1>kontakt</h1>
+				<div class="flex-center-position">
+					<div class="section-contact-left">
+						<p>Chcesz nawiązać współprace? Wyślij wiadomość</p>
+						<textarea placeholder="Twoja wiadomość" class="contact-textarea"></textarea>
+						<button class="contact-btn">Wyślij wiadomość</button>
 					</div>
-					<div class="section-contact-right">
-						<ion-icon name="logo-github"></ion-icon>
-						<p class="contact-space-icon">Kry765</p>
-					</div>
-					<div class="section-contact-right">
-						<ion-icon name="logo-discord"></ion-icon>
-						<p class="contact-space-icon">Kry765#5652</p>
-					</div>
-					<div class="section-contact-right">
-						<ion-icon name="mail-outline"></ion-icon>
-						<p class="contact-space-icon">krzysztof.kleka@poczta.onet.pl</p>
+					<div>
+						<div class="section-contact-right">
+							<ion-icon name="mail-outline"></ion-icon>
+							<p class="contact-space-icon">krzysztof.kleka@poczta.onet.pl</p>
+						</div>
+						<div class="section-contact-right">
+							<ion-icon name="logo-linkedin"></ion-icon>
+							<p class="contact-space-icon">Krzysztof Klęka</p>
+						</div>
+						<div class="section-contact-right">
+							<ion-icon name="logo-github"></ion-icon>
+							<p class="contact-space-icon">Kry765</p>
+						</div>
+						<div class="section-contact-right">
+							<ion-icon name="logo-discord"></ion-icon>
+							<p class="contact-space-icon">Kry765#5652</p>
+						</div>
 					</div>
 				</div>
 			</div>
