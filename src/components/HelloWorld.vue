@@ -141,7 +141,7 @@
 				<div class="bottom-menu"><a href="#contact">Kontakt</a></div>
 			</div>
 		</div>
-		<div>
+		<div class="copyright">
 			<p>2022 &copy; Kry765</p>
 		</div>
 	</footer>

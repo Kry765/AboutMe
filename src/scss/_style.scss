@@ -3,16 +3,16 @@ $white: #eeeeee;
 $red: #d72323;
 $light-dark: #3a4750;
 
-h1{
+h1 {
 	text-align: center;
 	text-transform: uppercase;
 	padding-top: 5%;
 	color: $white;
 }
 
-h2{
+h2 {
 	font-weight: 400;
-	color: $white
+	color: $white;
 }
 
 p {
@@ -201,10 +201,9 @@ a {
 		margin: 1em;
 	}
 	.section-contact-left {
-		text-align: center;
 		display: flex;
-		flex-direction: column;
 		align-items: center;
+		flex-direction: column;
 		padding: 1em;
 		.contact-btn {
 			background-color: $red;
@@ -256,4 +255,9 @@ a {
 			margin-left: 10px;
 		}
 	}
+}
+
+.copyright {
+	text-align: center;
+	padding: 5px;
 }
