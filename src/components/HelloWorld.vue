@@ -70,7 +70,6 @@
 							</div>
 						</div>
 					</div>
-
 					<div class="skills-icon">
 						<ion-icon name="logo-vue"></ion-icon>
 						<div class="skill-level">
@@ -97,32 +96,49 @@
 			</div>
 		</section>
 	</main>
-	<footer class="footer">
+	<footer class="footer" id="contact">
 		<div class="section-footer">
 			<div>
-				<div class="footer-left-position">
+				<h2>Kontakt</h2>
+				<div class="footer-left-position space-p">
 					<ion-icon name="mail-outline"></ion-icon>
 					<p class="contact-space-icon">krzysztof.kleka@poczta.onet.pl</p>
 				</div>
-				<div class="footer-left-position">
+				<div class="footer-left-position space-p">
 					<ion-icon name="logo-linkedin"></ion-icon>
 					<p class="contact-space-icon">Krzysztof Klęka</p>
 				</div>
-				<div class="footer-left-position">
+				<div class="footer-left-position space-p">
 					<ion-icon name="logo-github"></ion-icon>
 					<p class="contact-space-icon">Kry765</p>
 				</div>
-				<div class="footer-left-position">
+				<div class="footer-left-position space-p">
 					<ion-icon name="logo-discord"></ion-icon>
 					<p class="contact-space-icon">Kry765#5652</p>
 				</div>
 			</div>
+			<div class="footer-center-position">
+				<h2>Adres</h2>
+				<div class="footer-left-position space-p">
+					<ion-icon name="person-circle-outline"></ion-icon>
+					<p class="contact-space-icon">Krzysztof Klęka</p>
+				</div>
+				<div class="footer-left-position space-p">
+					<ion-icon name="location-outline"></ion-icon>
+					<p class="contact-space-icon">Żywiec</p>
+				</div>
+				<div class="footer-left-position space-p">
+					<ion-icon name="phone-portrait-outline"></ion-icon>
+					<p class="contact-space-icon">573-226-219</p>
+				</div>
+			</div>
 			<div>
-				<div><a class="bottom-menu" href="#home">Strona główna</a></div>
-				<div><a class="bottom-menu" href="#aboutme">O mnie</a></div>
-				<div><a class="bottom-menu" href="#goals">Osiągnięcia</a></div>
-				<div><a class="bottom-menu" href="#skills">Umiejętności</a></div>
-				<div><a class="bottom-menu" href="#contact">Kontakt</a></div>
+				<h2>Menu</h2>
+				<div class="bottom-menu"><a href="#home">Strona główna</a></div>
+				<div class="bottom-menu"><a href="#aboutme">O mnie</a></div>
+				<div class="bottom-menu"><a href="#goals">Osiągnięcia</a></div>
+				<div class="bottom-menu"><a href="#skills">Umiejętności</a></div>
+				<div class="bottom-menu"><a href="#contact">Kontakt</a></div>
 			</div>
 		</div>
 		<div>
@@ -132,4 +148,5 @@
 </template>
 <style scoped lang="scss">
 @import '../scss/style.scss';
+@import '../scss/mobile.scss';
 </style>
