@@ -1,6 +1,6 @@
 <template>
 	<nav>
-		<div class="top-nav flex-end-position">
+		<div class="top-nav flex-center">
 			<div class="burger-top-menu">
 				<ion-icon name="menu-sharp"></ion-icon>
 			</div>
@@ -12,9 +12,9 @@
 		</div>
 	</nav>
 	<header id="home">
-		<div class="header-background flex-center-position">
+		<div class="header-background flex-center text-center">
 			<div class="shadow-header-background"></div>
-			<div class="welcome-text">
+			<div class="welcome-text text-center">
 				<h1>Witaj, chcesz nieco więcej dowiedzieć się o mnie?</h1>
 				<br />
 				<a href="#aboutme" class="welcome-button">Przejdź dalej</a>
@@ -24,10 +24,10 @@
 	<main>
 		<section>
 			<div class="skills">
-				<div class="flex-center-position skills-title">
+				<div class="flex-center skills-title">
 					<h1 id="skills">Umiejętności</h1>
 				</div>
-				<div class="flex-center-position">
+				<div class="flex-center">
 					<div class="html">
 						<div class="html-card skills-icon">
 							<ion-icon name="logo-html5"></ion-icon>
@@ -53,7 +53,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="flex-center-position">
+				<div class="flex-center">
 					<div class="github">
 						<div class="skills-icon">
 							<ion-icon name="logo-github"></ion-icon>
@@ -80,14 +80,14 @@
 			</div>
 		</section>
 		<section>
-			<div class="goals">
+			<!-- <div class="goals">
 				<div class="shadow-goals"></div>
 				<h1>Osiągnięcia</h1>
-			</div>
+			</div> -->
 		</section>
 		<section>
 			<div class="contact">
-				<h1>kontakt</h1>
+				<h1 class="text-center">kontakt</h1>
 				<div class="section-contact-left">
 					<p>Chcesz nawiązać współprace? Wyślij wiadomość</p>
 					<textarea placeholder="Twoja wiadomość" class="contact-textarea"></textarea>
@@ -99,7 +99,9 @@
 	<footer class="footer" id="contact">
 		<div class="section-footer">
 			<div>
-				<h2>Kontakt</h2>
+				<div class="text-center">
+					<h2 class="contact-space-icon">Kontakt</h2>
+				</div>
 				<div class="footer-left-position space-p">
 					<ion-icon name="mail-outline"></ion-icon>
 					<p class="contact-space-icon">krzysztof.kleka@poczta.onet.pl</p>
@@ -118,7 +120,9 @@
 				</div>
 			</div>
 			<div class="footer-center-position">
-				<h2>Adres</h2>
+				<div class="text-center">
+					<h2>Adres</h2>
+				</div>
 				<div class="footer-left-position space-p">
 					<ion-icon name="person-circle-outline"></ion-icon>
 					<p class="contact-space-icon">Krzysztof Klęka</p>
@@ -133,7 +137,9 @@
 				</div>
 			</div>
 			<div>
-				<h2>Menu</h2>
+				<div class="text-center">
+					<h2>Menu</h2>
+				</div>
 				<div class="bottom-menu"><a href="#home">Strona główna</a></div>
 				<div class="bottom-menu"><a href="#aboutme">O mnie</a></div>
 				<div class="bottom-menu"><a href="#goals">Osiągnięcia</a></div>

@@ -4,7 +4,6 @@ $red: #d72323;
 $light-dark: #3a4750;
 
 h1 {
-	text-align: center;
 	text-transform: uppercase;
 	padding-top: 5%;
 	color: $white;
@@ -20,28 +19,22 @@ p {
 	font-size: 1em;
 }
 
-//MENU
-.flex-end-position {
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
-}
-
-.flex-center-position {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	align-self: center;
-	text-align: center;
-}
-
 a {
 	text-decoration: none;
 	color: $white;
 }
 
-//NAVIGIATION
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 
+.text-center {
+	text-align: center;
+}
+
+//NAVIGIATION
 .top-nav {
 	position: fixed;
 	width: 100%;
@@ -94,7 +87,7 @@ a {
 			min-width: 25%;
 			min-height: 10%;
 			border-radius: 15px;
-			color: #eeeeee;
+			color: $white;
 			padding: 20px;
 			text-transform: uppercase;
 			font-size: 1rem;
@@ -235,17 +228,14 @@ a {
 	margin: 1em;
 }
 
-.bottom-menu {
-	text-decoration: underline;
-}
-
 //FOOTER
 .footer {
 	background-color: $light-dark;
 	.section-footer {
 		display: flex;
 		justify-content: space-around;
-		padding: 1em;
+		align-content: center;
+		padding: 2em;
 	}
 	.footer-left-position {
 		display: flex;
@@ -255,6 +245,10 @@ a {
 			margin-left: 10px;
 		}
 	}
+}
+
+.bottom-menu {
+	text-decoration: underline;
 }
 
 .copyright {
