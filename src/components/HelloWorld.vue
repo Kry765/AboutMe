@@ -1,6 +1,6 @@
 <template>
 	<nav>
-		<div class="top-nav flex flex-end mobile-flex-end">
+		<div class="top-nav flex flex-end">
 			<div class="burger-top-menu">
 				<ion-icon name="menu-sharp"></ion-icon>
 			</div>
@@ -12,7 +12,7 @@
 		</div>
 	</nav>
 	<header id="home">
-		<div class="header-background flex center text-center">
+		<div class="header-background flex center text-center item-center">
 			<div class="shadow-header-background"></div>
 			<div class="welcome-text text-center">
 				<h1>Witaj, chcesz nieco więcej dowiedzieć się o mnie?</h1>
@@ -24,11 +24,11 @@
 	<main>
 		<section>
 			<div class="skills">
-				<div class="flex center skills-title">
+				<div>
 					<h1 id="skills">Umiejętności</h1>
 				</div>
-				<div class="flex-center">
-					<div class="html">
+				<div class="flex center mobile-column">
+					<div>
 						<div class="html-card skills-icon">
 							<ion-icon name="logo-html5"></ion-icon>
 							<div class="skill-level">
@@ -36,7 +36,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="css">
+					<div>
 						<div class="skills-icon">
 							<ion-icon name="logo-css3"></ion-icon>
 							<div class="skill-level">
@@ -44,7 +44,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="javascript">
+					<div>
 						<div class="skills-icon">
 							<ion-icon name="logo-javascript"></ion-icon>
 							<div class="skill-level">
@@ -53,8 +53,8 @@
 						</div>
 					</div>
 				</div>
-				<div class="flex-center">
-					<div class="github">
+				<div class="flex center mobile-column">
+					<div>
 						<div class="skills-icon">
 							<ion-icon name="logo-github"></ion-icon>
 							<div class="skill-level">
@@ -80,16 +80,16 @@
 			</div>
 		</section>
 		<section>
-			<!-- <div class="goals">
+			<div class="goals">
 				<div class="shadow-goals"></div>
 				<h1>Osiągnięcia</h1>
-			</div> -->
+			</div>
 		</section>
 		<section>
 			<div class="contact">
-				<h1 class="text-center">kontakt</h1>
+				<h1>kontakt</h1>
 				<div class="section-contact-left">
-					<p>Chcesz nawiązać współprace? Wyślij wiadomość</p>
+					<p class="text-center">Chcesz nawiązać współprace? Wyślij wiadomość</p>
 					<textarea placeholder="Twoja wiadomość" class="contact-textarea"></textarea>
 					<button class="contact-btn">Wyślij wiadomość</button>
 				</div>
@@ -152,7 +152,10 @@
 		</div>
 	</footer>
 </template>
+
 <style scoped lang="scss">
 @import '../scss/style.scss';
 @import '../scss/mobile.scss';
 </style>
+<!-- </section>
+	</main> -->

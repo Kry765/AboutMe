@@ -7,6 +7,7 @@
 	h1 {
 		font-size: 1.8rem;
 		padding: 1em;
+		text-align: center;
 	}
 
 	.header-background {
@@ -18,23 +19,26 @@
 		}
 	}
 
-	.mobile-flex-end {
-		justify-content: flex-end;
-		align-items: center;
-		padding: 1em;
-	}
+	//NAV
 
 	.top-nav {
 		display: block;
 		.burger-top-menu {
 			color: $white;
-			display: block;
+			display: flex;
+			justify-content: flex-end;
+			padding: 0.3em;
 		}
 		.top-nav-element {
 			display: none;
 		}
 	}
+	//SKILLS
 
+	.mobile-column {
+		text-align: center;
+		flex-direction: column;
+	}
 	//CONTACT
 
 	.section-contact-left {

@@ -7,6 +7,7 @@ h1 {
 	text-transform: uppercase;
 	padding-top: 5%;
 	color: $white;
+	text-align: center;
 }
 
 h2 {
@@ -24,25 +25,31 @@ a {
 	color: $white;
 }
 
+.item-center {
+	align-items: center;
+}
+
 .flex {
 	display: flex;
 }
 
 .center {
 	justify-content: center;
-	align-items: center;
 }
 
-.flex-start{
+.flex-start {
 	justify-content: flex-start;
 	align-items: center;
 }
 
-.flex-end{
+.flex-end {
 	justify-content: flex-end;
 	align-items: center;
 }
 
+.column {
+	flex-direction: column;
+}
 .text-center {
 	text-align: center;
 }
@@ -115,13 +122,6 @@ a {
 	}
 }
 
-//ABOUT-ME
-
-.about-me {
-	height: 100%;
-	width: 100%;
-}
-
 //SKILLS
 
 .skills {
@@ -144,7 +144,7 @@ a {
 .skill-level {
 	border: 2px solid white;
 	height: 10px;
-	max-width: 100%;
+	width: 100%;
 	border-radius: 15px;
 }
 .html-skill-level,
