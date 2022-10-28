@@ -1,6 +1,6 @@
 <template>
 	<nav>
-		<div class="top-nav flex-center">
+		<div class="top-nav flex flex-end mobile-flex-end">
 			<div class="burger-top-menu">
 				<ion-icon name="menu-sharp"></ion-icon>
 			</div>
@@ -12,7 +12,7 @@
 		</div>
 	</nav>
 	<header id="home">
-		<div class="header-background flex-center text-center">
+		<div class="header-background flex center text-center">
 			<div class="shadow-header-background"></div>
 			<div class="welcome-text text-center">
 				<h1>Witaj, chcesz nieco więcej dowiedzieć się o mnie?</h1>
@@ -24,7 +24,7 @@
 	<main>
 		<section>
 			<div class="skills">
-				<div class="flex-center skills-title">
+				<div class="flex center skills-title">
 					<h1 id="skills">Umiejętności</h1>
 				</div>
 				<div class="flex-center">

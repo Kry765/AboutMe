@@ -24,9 +24,22 @@ a {
 	color: $white;
 }
 
-.flex-center {
+.flex {
 	display: flex;
+}
+
+.center {
 	justify-content: center;
+	align-items: center;
+}
+
+.flex-start{
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.flex-end{
+	justify-content: flex-end;
 	align-items: center;
 }
 

@@ -4,6 +4,11 @@
 		font-size: 4rem;
 	}
 
+	h1 {
+		font-size: 1.8rem;
+		padding: 1em;
+	}
+
 	.header-background {
 		background-image: url(../picture/keyboard-ge7a5f3311_640.jpg);
 		background-repeat: no-repeat;
@@ -13,18 +18,24 @@
 		}
 	}
 
-	.top-nav-element {
-		display: none;
+	.mobile-flex-end {
+		justify-content: flex-end;
+		align-items: center;
+		padding: 1em;
 	}
 
-	.burger-top-menu {
+	.top-nav {
 		display: block;
-		padding: 1em 1.5em;
-		color: $white;
+		.burger-top-menu {
+			color: $white;
+			display: block;
+		}
+		.top-nav-element {
+			display: none;
+		}
 	}
 
 	//CONTACT
-
 
 	.section-contact-left {
 		display: flex;
@@ -43,13 +54,10 @@
 		height: 100%;
 	}
 
-
 	.section-footer {
 		align-self: center;
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
 	}
-
-
 }
