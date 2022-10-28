@@ -88,7 +88,7 @@
 		<section>
 			<div class="contact">
 				<h1>kontakt</h1>
-				<div class="section-contact-left">
+				<div class="flex column item-center">
 					<p class="text-center">Chcesz nawiązać współprace? Wyślij wiadomość</p>
 					<textarea placeholder="Twoja wiadomość" class="contact-textarea"></textarea>
 					<button class="contact-btn">Wyślij wiadomość</button>
@@ -102,19 +102,19 @@
 				<div class="text-center">
 					<h2 class="contact-space-icon">Kontakt</h2>
 				</div>
-				<div class="footer-left-position space-p">
+				<div class="flex row space-p">
 					<ion-icon name="mail-outline"></ion-icon>
 					<p class="contact-space-icon">krzysztof.kleka@poczta.onet.pl</p>
 				</div>
-				<div class="footer-left-position space-p">
+				<div class="flex row space-p">
 					<ion-icon name="logo-linkedin"></ion-icon>
 					<p class="contact-space-icon">Krzysztof Klęka</p>
 				</div>
-				<div class="footer-left-position space-p">
+				<div class="flex row space-p">
 					<ion-icon name="logo-github"></ion-icon>
 					<p class="contact-space-icon">Kry765</p>
 				</div>
-				<div class="footer-left-position space-p">
+				<div class="flex row space-p">
 					<ion-icon name="logo-discord"></ion-icon>
 					<p class="contact-space-icon">Kry765#5652</p>
 				</div>
@@ -123,15 +123,15 @@
 				<div class="text-center">
 					<h2>Adres</h2>
 				</div>
-				<div class="footer-left-position space-p">
+				<div class="flex row space-p">
 					<ion-icon name="person-circle-outline"></ion-icon>
 					<p class="contact-space-icon">Krzysztof Klęka</p>
 				</div>
-				<div class="footer-left-position space-p">
+				<div class="flex row space-p">
 					<ion-icon name="location-outline"></ion-icon>
 					<p class="contact-space-icon">Żywiec</p>
 				</div>
-				<div class="footer-left-position space-p">
+				<div class="flex row space-p">
 					<ion-icon name="phone-portrait-outline"></ion-icon>
 					<p class="contact-space-icon">573-226-219</p>
 				</div>

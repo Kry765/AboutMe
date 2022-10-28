@@ -25,6 +25,7 @@ a {
 	color: $white;
 }
 
+//FLEXBOX
 .item-center {
 	align-items: center;
 }
@@ -49,6 +50,9 @@ a {
 
 .column {
 	flex-direction: column;
+}
+.row {
+	flex-direction: row;
 }
 .text-center {
 	text-align: center;
@@ -191,7 +195,6 @@ a {
 }
 
 //CONTACT
-
 .contact {
 	width: 100%;
 	min-height: 100%;
@@ -206,33 +209,27 @@ a {
 		padding: 0.5em;
 		margin: 1em;
 	}
-	.section-contact-left {
-		display: flex;
-		align-items: center;
-		flex-direction: column;
-		padding: 1em;
-		.contact-btn {
-			background-color: $red;
-			min-width: 15%;
-			min-height: 5%;
-			border-radius: 15px;
-			color: #eeeeee;
-			padding: 20px;
-			text-transform: uppercase;
-			font-size: 0.8rem;
-			font-weight: bold;
-			transition: 0.4s;
-			border-style: none;
-		}
-		.contact-textarea {
-			min-width: 80%;
-			min-height: 30vh;
-			max-height: 50vh;
-			resize: vertical;
-			padding: 15px;
-			border-radius: 15px;
-			margin: 0.5em;
-		}
+	.contact-btn {
+		background-color: $red;
+		min-width: 15%;
+		min-height: 5%;
+		border-radius: 15px;
+		color: #eeeeee;
+		padding: 20px;
+		text-transform: uppercase;
+		font-size: 0.8rem;
+		font-weight: bold;
+		transition: 0.4s;
+		border-style: none;
+	}
+	.contact-textarea {
+		min-width: 80%;
+		min-height: 30vh;
+		max-height: 50vh;
+		resize: vertical;
+		padding: 15px;
+		border-radius: 15px;
+		margin: 0.5em;
 	}
 }
 
@@ -250,13 +247,8 @@ a {
 		align-content: center;
 		padding: 2em;
 	}
-	.footer-left-position {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		.contact-space-icon {
-			margin-left: 10px;
-		}
+	.contact-space-icon {
+		margin-left: 10px;
 	}
 }
 
