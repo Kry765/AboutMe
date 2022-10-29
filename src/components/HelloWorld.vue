@@ -15,7 +15,7 @@
 		<div class="header-background flex center text-center item-center">
 			<div class="shadow-header-background"></div>
 			<div class="welcome-text text-center">
-				<h1>Witaj, chcesz nieco więcej dowiedzieć się o mnie?</h1>
+				<h1 class="text-center">Witaj, chcesz nieco więcej dowiedzieć się o mnie?</h1>
 				<br />
 				<a href="#aboutme" class="welcome-button">Przejdź dalej</a>
 			</div>
@@ -23,9 +23,12 @@
 	</header>
 	<main>
 		<section>
+			<div class="about-me"></div>
+		</section>
+		<section>
 			<div class="skills">
 				<div>
-					<h1 id="skills">Umiejętności</h1>
+					<h1 id="skills" class="text-center">Umiejętności</h1>
 				</div>
 				<div class="flex center mobile-column">
 					<div>
@@ -82,12 +85,12 @@
 		<section>
 			<div class="goals">
 				<div class="shadow-goals"></div>
-				<h1>Osiągnięcia</h1>
+				<h1 class="text-center">Osiągnięcia</h1>
 			</div>
 		</section>
 		<section>
 			<div class="contact">
-				<h1 id="contact">kontakt</h1>
+				<h1 id="contact" class="text-center">kontakt</h1>
 				<div class="flex column item-center">
 					<p class="text-center">Chcesz nawiązać współprace? Wyślij wiadomość</p>
 					<textarea placeholder="Twoja wiadomość" class="contact-textarea"></textarea>
@@ -97,7 +100,7 @@
 		</section>
 	</main>
 	<footer class="footer">
-		<div class="section-footer">
+		<div class="flex flex-space-around center-content">
 			<div>
 				<div class="text-center">
 					<h2 class="contact-space-icon">Kontakt</h2>
@@ -148,7 +151,7 @@
 			</div>
 		</div>
 		<div class="copyright">
-			<p>2022 &copy; Kry765</p>
+			<p class="text-center">2022 &copy; Kry765</p>
 		</div>
 	</footer>
 </template>

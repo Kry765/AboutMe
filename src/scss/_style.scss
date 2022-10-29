@@ -7,11 +7,10 @@ h1 {
 	text-transform: uppercase;
 	padding-top: 5%;
 	color: $white;
-	text-align: center;
 }
 
 h2 {
-	font-weight: 400;
+	font-weight: 300;
 	color: $white;
 }
 
@@ -58,6 +57,14 @@ a {
 	text-align: center;
 }
 
+.flex-space-around {
+	justify-content: space-around;
+}
+
+.center-content {
+	align-content: center;
+}
+
 //NAVIGIATION
 .top-nav {
 	position: fixed;
@@ -85,7 +92,6 @@ a {
 }
 
 //HEADER
-
 .header-background {
 	position: relative;
 	background-image: url(../picture/keyboard-g5469bdbfa_1920.jpg);
@@ -126,8 +132,9 @@ a {
 	}
 }
 
-//SKILLS
+//ABOUT-ME
 
+//SKILLS
 .skills {
 	height: 100%;
 	width: 100%;
@@ -241,6 +248,7 @@ a {
 //FOOTER
 .footer {
 	background-color: $light-dark;
+	padding: 2em;
 	.section-footer {
 		display: flex;
 		justify-content: space-around;
@@ -257,6 +265,5 @@ a {
 }
 
 .copyright {
-	text-align: center;
 	padding: 5px;
 }
