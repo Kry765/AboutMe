@@ -23,7 +23,15 @@
 	</header>
 	<main>
 		<section>
-			<div class="about-me"></div>
+			<h1>O mnie</h1>
+			<div class="about-me">
+				<div class="section-about-me">
+					Jestem na 5 semestrze studiowania w Wyższej szkole informatyki i zarządzania w Bielsko-Biała. Hobbystycznie
+					zajmuje się projektowaniem stron internetowym. Głównie pracuje z technologami Front-End. Głównie interesuje
+					się najnowszymi ciekawostkami z świata IT. Lubię dobre jedzenie i podróżowanie
+				</div>
+				<div class="photo-about-me"></div>
+			</div>
 		</section>
 		<section>
 			<div class="skills">
@@ -160,5 +168,3 @@
 @import '../scss/style.scss';
 @import '../scss/mobile.scss';
 </style>
-<!-- </section>
-	</main> -->
