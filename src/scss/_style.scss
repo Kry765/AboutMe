@@ -9,17 +9,15 @@ $green: #42a59f;
 
 h1 {
 	text-transform: uppercase;
-	padding-top: 5%;
+	padding: 2% 0;
 	color: $white;
 }
 
 h2 {
-	font-weight: 300;
-	color: $white;
+	text-transform: uppercase;
 }
 
 p {
-	color: $white;
 	font-size: 1em;
 }
 
@@ -96,7 +94,7 @@ a {
 //HEADER
 .header-background {
 	position: relative;
-	background-image: url(../picture/keyboard-g5469bdbfa_1920.jpg);
+	background-image: url(../picture/dawn-g2912c8a57_1920.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -105,7 +103,7 @@ a {
 		position: absolute;
 		width: 100%;
 		height: 100vh;
-		background-color: rgb(43, 28, 28);
+		background-color: rgb(48, 141, 113);
 		opacity: 0.5;
 	}
 	.welcome-text {
@@ -115,7 +113,7 @@ a {
 	}
 	div {
 		.welcome-button {
-			background-color: $red;
+			background-color: $green;
 			min-width: 25%;
 			min-height: 10%;
 			border-radius: 15px;
@@ -127,7 +125,7 @@ a {
 			transition: 0.4s;
 		}
 		.welcome-button:hover {
-			background-color: $dark;
+			background-color: $light-green;
 			cursor: pointer;
 		}
 	}
@@ -136,9 +134,12 @@ a {
 //ABOUT-ME
 .about-me {
 	width: 100%;
-	background-color: $dark;
+	background-color: $white;
 	max-height: 100%;
 	min-height: 100vh;
+	.color-header-text {
+		color: $green;
+	}
 }
 
 .foto-about-me {
@@ -152,20 +153,11 @@ a {
 	text-align: justify;
 }
 
-.shadow-foto-about-me {
-	width: 200px;
-	background-color: aqua;
-}
-
-.shadow-positon {
-	position: relative;
-}
-
 //SKILLS
 .skills {
 	height: 100%;
 	width: 100%;
-	background-color: $white;
+	background-color: $green;
 }
 
 .skills-title {
@@ -176,11 +168,11 @@ a {
 	display: block;
 	margin: 0.5em;
 	font-size: 10rem;
-	color: $light-dark;
+	color: $white;
 }
 
 .skill-level {
-	border: 2px solid $light-dark;
+	border: 2px solid $white;
 	height: 10px;
 	width: 100%;
 	border-radius: 15px;
@@ -191,7 +183,7 @@ a {
 .js-skill-level,
 .vue-skill-level,
 .github-skill-level {
-	background-color: $light-dark;
+	background-color: $white;
 	height: 100%;
 }
 

@@ -23,7 +23,7 @@
 	</header>
 	<main>
 		<section id="aboutme" class="about-me flex item-center center column">
-			<h1 class="text-center">O mnie</h1>
+			<h2 class="text-center">O <span class="color-header-text">mnie</span></h2>
 			<div class="flex center item-center row">
 				<div class="section-about-me flex center">
 					<div class="flex center item-center text-about-me">
