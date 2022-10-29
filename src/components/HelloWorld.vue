@@ -30,7 +30,9 @@
 					zajmuje się projektowaniem stron internetowym. Głównie pracuje z technologami Front-End. Głównie interesuje
 					się najnowszymi ciekawostkami z świata IT. Lubię dobre jedzenie i podróżowanie
 				</div>
-				<div class="photo-about-me"></div>
+				<div class="photo-about-me">
+					<img src="../picture/my-photo.jpg" alt="foto" />
+				</div>
 			</div>
 		</section>
 		<section>
