@@ -1,7 +1,11 @@
 $dark: #303841;
 $white: #eeeeee;
-$red: #d72323;
+$red: #970707;
 $light-dark: #3a4750;
+$light-green: #a3f7b5;
+$medium-green: #72e0ac;
+$strong-green: #54bea1;
+$green: #42a59f;
 
 h1 {
 	text-transform: uppercase;
@@ -69,26 +73,24 @@ a {
 .top-nav {
 	position: fixed;
 	width: 100%;
-	background-color: $light-dark;
+	background-color: $green;
 	min-height: 50px;
 	text-transform: uppercase;
 	font-weight: bold;
 	z-index: 8;
 	opacity: 0.8;
-}
-
-.top-nav-element {
-	margin: 0 2em;
-	transition: 0.5s;
-	z-index: 2;
+	.top-nav-element {
+		margin: 0 2em;
+		transition: 0.5s;
+		z-index: 2;
+	}
+	.burger-top-menu {
+		display: none;
+	}
 }
 
 .top-nav-element:hover {
-	color: $red;
-}
-
-.burger-top-menu {
-	display: none;
+	color: white;
 }
 
 //HEADER
@@ -118,13 +120,12 @@ a {
 			min-height: 10%;
 			border-radius: 15px;
 			color: $white;
-			padding: 20px;
+			padding: 1em;
 			text-transform: uppercase;
 			font-size: 1rem;
 			font-weight: bold;
 			transition: 0.4s;
 		}
-
 		.welcome-button:hover {
 			background-color: $dark;
 			cursor: pointer;
@@ -133,12 +134,38 @@ a {
 }
 
 //ABOUT-ME
+.about-me {
+	width: 100%;
+	background-color: $dark;
+	max-height: 100%;
+	min-height: 100vh;
+}
+
+.foto-about-me {
+	max-width: 30%;
+	border-radius: 75px;
+	margin: 2em;
+}
+
+.text-about-me {
+	margin: 2em;
+	text-align: justify;
+}
+
+.shadow-foto-about-me {
+	width: 200px;
+	background-color: aqua;
+}
+
+.shadow-positon {
+	position: relative;
+}
 
 //SKILLS
 .skills {
 	height: 100%;
 	width: 100%;
-	background: $light-dark;
+	background-color: $white;
 }
 
 .skills-title {
@@ -146,14 +173,14 @@ a {
 }
 
 .skills-icon {
-	color: $white;
 	display: block;
 	margin: 0.5em;
 	font-size: 10rem;
+	color: $light-dark;
 }
 
 .skill-level {
-	border: 2px solid white;
+	border: 2px solid $light-dark;
 	height: 10px;
 	width: 100%;
 	border-radius: 15px;
@@ -164,7 +191,7 @@ a {
 .js-skill-level,
 .vue-skill-level,
 .github-skill-level {
-	background-color: white;
+	background-color: $light-dark;
 	height: 100%;
 }
 
@@ -190,15 +217,14 @@ a {
 .goals {
 	width: 100%;
 	height: 100vh;
-}
-
-.shadow-goals {
-	width: 100%;
-	height: 100%;
-	background-image: url('../picture/business-g43692ee71_1920.jpg');
-	position: fixed;
-	bottom: 0;
-	z-index: -1;
+	.shadow-goals {
+		width: 100%;
+		height: 100%;
+		background-image: url('../picture/business-g43692ee71_1920.jpg');
+		position: fixed;
+		bottom: 0;
+		z-index: -1;
+	}
 }
 
 //CONTACT

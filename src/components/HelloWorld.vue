@@ -8,6 +8,7 @@
 			<div><a class="top-nav-element" href="#aboutme">O mnie</a></div>
 			<div><a class="top-nav-element" href="#goals">Osiągnięcia</a></div>
 			<div><a class="top-nav-element" href="#skills">Umiejętności</a></div>
+			<div><a class="top-nav-element" href="#project">Projekty</a></div>
 			<div><a class="top-nav-element" href="#contact">Kontakt</a></div>
 		</div>
 	</nav>
@@ -16,22 +17,25 @@
 			<div class="shadow-header-background"></div>
 			<div class="welcome-text text-center">
 				<h1 class="text-center">Witaj, chcesz nieco więcej dowiedzieć się o mnie?</h1>
-				<br />
 				<a href="#aboutme" class="welcome-button">Przejdź dalej</a>
 			</div>
 		</div>
 	</header>
 	<main>
-		<section>
-			<h1>O mnie</h1>
-			<div class="about-me">
-				<div class="section-about-me">
-					Jestem na 5 semestrze studiowania w Wyższej szkole informatyki i zarządzania w Bielsko-Biała. Hobbystycznie
-					zajmuje się projektowaniem stron internetowym. Głównie pracuje z technologami Front-End. Głównie interesuje
-					się najnowszymi ciekawostkami z świata IT. Lubię dobre jedzenie i podróżowanie
+		<section id="aboutme" class="about-me flex item-center center column">
+			<h1 class="text-center">O mnie</h1>
+			<div class="flex center item-center row">
+				<div class="section-about-me flex center">
+					<div class="flex center item-center text-about-me">
+						<p>
+							Jestem na 5 semestrze studiowania w Wyższej szkole informatyki i zarządzania w Bielsko-Biała.
+							Hobbystycznie zajmuje się projektowaniem stron internetowym. Głównie pracuje z technologami Front-End.
+							Głównie interesuje się najnowszymi ciekawostkami z świata IT. Lubię dobre jedzenie i podróżowanie
+						</p>
+					</div>
 				</div>
-				<div class="photo-about-me">
-					<img src="../picture/my-photo.jpg" alt="foto" />
+				<div class="flex center">
+					<img src="../picture/my-photo.jpg" alt="foto" class="foto-about-me" />
 				</div>
 			</div>
 		</section>
