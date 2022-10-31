@@ -34,7 +34,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="flex center test2">
+				<div class="flex center test2" data-aos="fade-left">
 					<img src="../picture/my-photo.jpg" alt="foto" class="foto-about-me" />
 				</div>
 			</div>
