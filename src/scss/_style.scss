@@ -63,6 +63,10 @@ a {
 	justify-content: space-around;
 }
 
+.flex-space-between {
+	justify-content: space-between;
+}
+
 .center-content {
 	align-content: center;
 }
@@ -222,9 +226,9 @@ a {
 //CONTACT
 .contact {
 	width: 100%;
+	background-color: $green;
 	min-height: 100%;
 	z-index: 1;
-	background-color: $light-dark;
 	.section-contact-right {
 		display: flex;
 		align-items: center;
@@ -265,8 +269,8 @@ a {
 
 //FOOTER
 .footer {
-	background-color: $light-dark;
 	padding: 2em;
+	background-color: $green;
 	.section-footer {
 		display: flex;
 		justify-content: space-around;

@@ -24,9 +24,9 @@
 	<main>
 		<section id="aboutme" class="about-me flex item-center center column">
 			<h2 class="text-center">O <span class="color-header-text">mnie</span></h2>
-			<div class="flex center item-center row">
+			<div class="flex flex-space-around mobile">
 				<div class="section-about-me flex center">
-					<div class="flex center item-center text-about-me">
+					<div class="flex center item-center text-about-me test1">
 						<p>
 							Jestem na 5 semestrze studiowania w Wyższej szkole informatyki i zarządzania w Bielsko-Biała.
 							Hobbystycznie zajmuje się projektowaniem stron internetowym. Głównie pracuje z technologami Front-End.
@@ -34,7 +34,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="flex center">
+				<div class="flex center test2">
 					<img src="../picture/my-photo.jpg" alt="foto" class="foto-about-me" />
 				</div>
 			</div>
@@ -114,7 +114,7 @@
 		</section>
 	</main>
 	<footer class="footer">
-		<div class="flex flex-space-around center-content">
+		<div class="flex flex-space-around center-content mobile">
 			<div>
 				<div class="text-center">
 					<h2 class="contact-space-icon">Kontakt</h2>
@@ -169,7 +169,6 @@
 		</div>
 	</footer>
 </template>
-
 <style scoped lang="scss">
 @import '../scss/style.scss';
 @import '../scss/mobile.scss';
